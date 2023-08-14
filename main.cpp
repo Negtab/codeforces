@@ -5,7 +5,22 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    int number = 0;
+    std::cin >> number;
+    if (number > 0 && number <= 100)
+    {
+        if (number % 2 == 0)
+        {
+            std::cout << "YES" << std::endl;
+        }
+        else {
+            std::cout << "NO" << std::endl;
+        }
+    }
+    else
+    {
+        std::cout << "NO" << std::endl;
+    }
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
