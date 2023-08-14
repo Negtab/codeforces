@@ -9,7 +9,7 @@ int main()
     std::cin >> number;
     if (number > 0 && number <= 100)
     {
-        if (number % 2 == 0)
+        if (number % 2 == 0 && number > 2)
         {
             std::cout << "YES" << std::endl;
         }
